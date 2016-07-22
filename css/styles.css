@@ -3,7 +3,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #888;
+    background-color: rgb(0,50,255);
 }
 
 /* Float the list items side by side */
@@ -21,7 +21,9 @@ ul.topnav li a {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: #aaa;}
+ul.topnav li a:hover {background-color: rgb(50,150,255);}
+
+ul.topnav li.active {background-color: rgb(50,100,255);}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
@@ -52,4 +54,24 @@ ul.topnav li.icon {display: none;}
     display: block;
     text-align: left;
   }
+}
+
+#title {
+  text-align: center;
+  margin: auto;
+  height: 100px;
+}
+
+div.intro{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+h3.intro-body{
+  width: 500px;
+}
+
+div.intro h3 {
+  display: inline-block;
 }
