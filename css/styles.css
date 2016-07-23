@@ -1,9 +1,19 @@
+body {
+  background-image: url("images/background.jpg");
+}
+div.topwrap {
+    text-align: center;
+    background-color: rgb(0,0,0);
+}
+div.topmid {
+    margin: 0 auto; 
+    width: 500px
+}
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0,50,255);
 }
 
 /* Float the list items side by side */
@@ -20,10 +30,9 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-/* Change background color of links on hover */
-ul.topnav li a:hover {background-color: rgb(50,150,255);}
+ul.topnav li a:hover {background-color: rgb(150,150,150);}
 
-ul.topnav li.active {background-color: rgb(50,100,255);}
+ul.topnav li.active {background-color: rgb(50,50,50);}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
