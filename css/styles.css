@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://jasontsh.github.io/images/background.jpg");
+  background-image: url("/images/background.jpg");
   background-position-x: center;
   background-position-y: center;
   background-repeat-x: no-repeat;
@@ -115,10 +115,11 @@ div.codebox {
 div.codebox-wrap {
   position: relative;
 }
-
 img {
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    width: 50%;
+    height: auto;
 }
 div.code-description {
 visibility: hidden;
