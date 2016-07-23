@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("https://jasontsh.github.io/images/background.jpg");
   background-position-x: center;
   background-position-y: center;
   background-repeat-x: no-repeat;
@@ -80,11 +80,13 @@ ul.topnav li.icon {display: none;}
   text-align: center;
   margin: auto;
   height: 100px;
+  color: #f2f2f2;
 }
 
 div.intro{
   margin-top: 50px;
   text-align: center;
+  color: #f2f2f2;
 }
 
 
@@ -94,4 +96,10 @@ h3.intro-body{
 
 div.intro h3 {
   display: inline-block;
+}
+
+#codewrapper {
+  width:80%;
+  margin:auto;
+  background-color:rgb(200,200,200);
 }
