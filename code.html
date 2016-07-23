@@ -15,7 +15,7 @@
     <div class="topmid">
       <ul class="topnav" id="myTopnav">
         <li><a href="/index">Home</a></li>
-        <li><a class="active" href="/code">Code</a></li>
+        <li class="active"><a href="/code">Code</a></li>
         <li><a>Music</a></li>
         <li><a>About</a></li>
         <li class="icon">
@@ -29,11 +29,29 @@
     <h1>Coding Projects</h1>
   </div>
 
-  <div id="codewrapper">
-  	<div class="codebox">
-  		
-  	</div>
-  </div>
+	<div id="codewrapper" >
+		<div class="codebox">
+			<div class="codebox-wrap" onmouseover="show('div1')" onmouseout="hide('div1')">
+				<a href="https://github.com/jasontsh/Rubiksolver">
+					<img src="https://raw.githubusercontent.com/jasontsh/Rubiksolver/master/app/src/main/res/mipmap-hdpi/ic_launcher.png">
+					<div class="code-description" id="div1">
+						Android app that uses a camera to identify and solve Rubik's cubes. 
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="codebox">
+			<div class="codebox-wrap" onmouseover="show('div2')" onmouseout="hide('div2')">
+				<a href="https://github.com/jasontsh/LeagueMatchAnalysis">
+					<img src="/images/Bronze_QQ.png">
+					<div class="code-description" id="div2">
+						Analysis on LoL game time with Riot's data.
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
   <script src="js/scripts.js"></script>
 </body>
 </html>

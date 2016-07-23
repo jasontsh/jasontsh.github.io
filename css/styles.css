@@ -14,11 +14,11 @@ body {
 }
 div.topwrap {
     text-align: center;
-    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
 }
 div.topmid {
     margin: 0 auto; 
-    width: 500px
+    width: 60%;
 }
 ul.topnav {
     list-style-type: none;
@@ -91,7 +91,7 @@ div.intro{
 
 
 h3.intro-body{
-  width: 500px;
+  width: 60%;
 }
 
 div.intro h3 {
@@ -101,5 +101,33 @@ div.intro h3 {
 #codewrapper {
   width:80%;
   margin:auto;
-  background-color:rgb(200,200,200);
+  background-color:rgba(200,200,200,0.6);
+}
+
+div.codebox {
+  width:25%;
+  padding-bottom: 75%;
+  margin-left: 5%;
+  margin-top:10px;
+  display: inline-block;
+}
+
+div.codebox-wrap {
+  position: relative;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+div.code-description {
+visibility: hidden;
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  right: 25%;
+  bottom:10%;
+  background-color: rgba(0,0,0,0.6);
+  color: #f2f2f2;
+  overflow: auto;
 }
