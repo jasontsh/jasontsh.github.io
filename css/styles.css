@@ -137,3 +137,9 @@ visibility: hidden;
   overflow: auto;
   padding: 2%;
 }
+h2 {
+  margin: 2%;
+}
+audio {
+  margin:2%;
+}
