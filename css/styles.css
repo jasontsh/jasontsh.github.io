@@ -138,8 +138,10 @@ visibility: hidden;
   padding: 2%;
 }
 h2 {
-  margin: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
+
 audio {
-  margin:2%;
+  margin-left: 2%;
 }
