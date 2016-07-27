@@ -92,12 +92,12 @@ div.intro{
 }
 
 
-h3.intro-body{
+h2.intro-body{
   width: 60%;
   text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
 }
 
-div.intro h3 {
+div.intro h2 {
   display: inline-block;
 }
 
