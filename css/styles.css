@@ -82,7 +82,7 @@ ul.topnav li.icon {display: none;}
   margin: auto;
   height: 100px;
   color: #f2f2f2;
-  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+  -webkit-text-stroke: 2px black;
 }
 
 div.intro{
@@ -94,7 +94,7 @@ div.intro{
 
 h3.intro-body{
   width: 60%;
-  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+  -webkit-text-stroke: 2px black;
 }
 
 div.intro h3 {
@@ -144,4 +144,17 @@ h2 {
 
 audio {
   margin-left: 2%;
+}
+
+h3 {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+#easteregg {
+  visibility: hidden;
+}
+
+#center {
+  text-align: center;
 }

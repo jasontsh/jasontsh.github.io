@@ -15,3 +15,17 @@ function show(id) {
  function hide(id) {
     document.getElementById(id).style.visibility = "hidden";
 }
+
+//Easter egg
+
+var code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
+var index = 0;
+
+document.onkeydown = function(e){
+  if (e.keyCode == code[index]) {
+    index++;
+} else {
+    index = 0;
+  }
+  document.getElementById("easteregg").style.visibility = "visible";
+};
