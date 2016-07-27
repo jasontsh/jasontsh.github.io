@@ -27,5 +27,7 @@ document.onkeydown = function(e){
 } else {
     index = 0;
   }
-  document.getElementById("easteregg").style.visibility = "visible";
+  if (index == code.length) {
+  	document.getElementById("easteregg").style.visibility = "visible";
+  }
 };
