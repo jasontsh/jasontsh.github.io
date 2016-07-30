@@ -57,6 +57,14 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
   }
+
+  div.codebox {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
