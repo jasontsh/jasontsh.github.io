@@ -57,6 +57,12 @@ div.codebox {
   display: inline-block;
 }
 
+iframe {
+  margin-left: 2%;
+  width: 560px;
+  height: 315px;
+}
+
 /*This part is the hide list section*/
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
@@ -73,6 +79,11 @@ div.codebox {
     margin-bottom: 2%;
     display: inline-block;
   }
+  iframe {
+    margin-left: 2%;
+    width: 80%;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
@@ -170,8 +181,4 @@ h3 {
 #profile {
   height: 40%;
   width: 40%;
-}
-
-iframe {
-  margin-left: 2%;
 }
