@@ -79,9 +79,10 @@ iframe {
     margin-bottom: 2%;
     display: inline-block;
   }
+  
   iframe {
     margin-left: 2%;
-    width: 80%;
+    width: 90%;
   }
 
 }
