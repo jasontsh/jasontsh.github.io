@@ -49,6 +49,14 @@ ul.topnav li.active {background-color: rgb(50,50,50);}
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
 
+div.codebox {
+  width:25%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
 /*This part is the hide list section*/
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width:680px) {
@@ -113,14 +121,6 @@ div.intro h2 {
   width:80%;
   margin:auto;
   background-color:rgba(200,200,200,0.6);
-}
-
-div.codebox {
-  width:25%;
-  margin-left: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  display: inline-block;
 }
 
 div.codebox-wrap {
