@@ -163,3 +163,7 @@ h3 {
   height: 40%;
   width: 40%;
 }
+
+iframe {
+  margin-left: 2%;
+}
